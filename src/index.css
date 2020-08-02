@@ -35,6 +35,7 @@ header {
   background-color: #203040;
   color: #ffffff;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
 }
@@ -123,9 +124,23 @@ footer {
 }
 
 .button:hover {
-  border: .1rem #808080 solid;
+  border: 0.1rem #808080 solid;
 }
 
 .button.primary {
   background-color: #f0c040;
+}
+
+/* Filter */
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.filter div {
+  flex: 1;
 }
